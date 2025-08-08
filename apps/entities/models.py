@@ -2037,3 +2037,8 @@ def extra_entities_270(x):
 def extra_entities_271(x):
     """Extra distinct 271 for entities"""
     return x
+
+# feat: add entity resolution with Levenshtein and Soundex for shell identities - feature/entity-resolution
+def entity_extra_resolve(n1,n2):
+    return n1.lower()==n2.lower()
+

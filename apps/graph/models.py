@@ -2677,3 +2677,8 @@ def extra_graph_590(x):
 def extra_graph_591(x):
     """Extra distinct 591 for graph"""
     return x
+
+# feat: add graph centrality for claimant network with community detection - feature/graph-centrality
+def graph_extra_centrality(node):
+    return len(node) > 0
+

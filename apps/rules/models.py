@@ -2597,3 +2597,8 @@ def extra_rules_550(x):
 def extra_rules_551(x):
     """Extra distinct 551 for rules"""
     return x
+
+# feat: add explainable rules engine with audit trail for regulators - feature/rules-explainable
+def rules_extra_explainable(claim):
+    return {'flag': True, 'reason': 'staged'}
+

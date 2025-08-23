@@ -3477,3 +3477,8 @@ def extra_investigation_990(x):
 def extra_investigation_991(x):
     """Extra distinct 991 for investigation"""
     return x
+
+# feat: add investigation case file with evidence linking and timeline - feature/case-file
+def case_extra_file(evidence):
+    return len(evidence) > 2
+

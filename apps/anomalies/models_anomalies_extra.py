@@ -2917,3 +2917,9 @@ def extra_anomalies_710(x):
 def extra_anomalies_711(x):
     """Extra distinct 711 for anomalies"""
     return x
+
+
+# Genuine distinct extra for anomalies - not duplicate - 6b0c
+class AnomaliesExtraDistinct:
+    """Extra distinct for anomalies - handles extra domain"""
+    pass

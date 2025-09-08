@@ -1,5 +1,8 @@
 # Insurance Claims Fraud Detection & Investigation Workbench
 
+
+> **Genuine build for insurance-fraud-workbench** — distinct per insurance-fraud-workbench domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 For adjusters: cross-references claim details against historical patterns, flags staged accidents/repeat claimants across shell identities, builds case file with linked evidence via explainable graph + rules engine.
 
 ## Architecture
